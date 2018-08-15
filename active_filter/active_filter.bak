@@ -1,0 +1,404 @@
+EESchema Schematic File Version 4
+LIBS:active_filter-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Opamp_Dual_Generic U1
+U 1 1 5B72F6D4
+P 7550 2100
+F 0 "U1" H 7550 2467 50  0000 C CNN
+F 1 "ADA4610-2" H 7550 2376 50  0000 C CNN
+F 2 "default-footprints:SOIC-8_3.9x4.9mm_P1.27mm" H 7550 2100 50  0001 C CNN
+F 3 "~" H 7550 2100 50  0001 C CNN
+	1    7550 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Opamp_Dual_Generic U1
+U 2 1 5B72F76C
+P 7850 4500
+F 0 "U1" H 7850 4867 50  0000 C CNN
+F 1 "ADA4610-2" H 7850 4776 50  0000 C CNN
+F 2 "default-footprints:SOIC-8_3.9x4.9mm_P1.27mm" H 7850 4500 50  0001 C CNN
+F 3 "~" H 7850 4500 50  0001 C CNN
+	2    7850 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Opamp_Dual_Generic U1
+U 3 1 5B72F7D7
+P 5750 2000
+F 0 "U1" H 5708 2046 50  0000 L CNN
+F 1 "ADA4610-2" H 5708 1955 50  0000 L CNN
+F 2 "default-footprints:SOIC-8_3.9x4.9mm_P1.27mm" H 5750 2000 50  0001 C CNN
+F 3 "~" H 5750 2000 50  0001 C CNN
+	3    5750 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5B72FA5F
+P 6750 1750
+F 0 "R5" H 6820 1796 50  0000 L CNN
+F 1 "47k" H 6820 1705 50  0000 L CNN
+F 2 "default-footprints:R_0603_1608Metric" V 6680 1750 50  0001 C CNN
+F 3 "~" H 6750 1750 50  0001 C CNN
+	1    6750 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5B72FAD5
+P 6750 2350
+F 0 "R6" H 6820 2396 50  0000 L CNN
+F 1 "47k" H 6820 2305 50  0000 L CNN
+F 2 "default-footprints:R_0603_1608Metric" V 6680 2350 50  0001 C CNN
+F 3 "~" H 6750 2350 50  0001 C CNN
+	1    6750 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5B72FB57
+P 6850 4400
+F 0 "R2" V 7057 4400 50  0000 C CNN
+F 1 "820k" V 6966 4400 50  0000 C CNN
+F 2 "default-footprints:R_0603_1608Metric" V 6780 4400 50  0001 C CNN
+F 3 "~" H 6850 4400 50  0001 C CNN
+	1    6850 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5B72FBC1
+P 6250 4400
+F 0 "R1" V 6457 4400 50  0000 C CNN
+F 1 "18k" V 6366 4400 50  0000 C CNN
+F 2 "default-footprints:R_0603_1608Metric" V 6180 4400 50  0001 C CNN
+F 3 "~" H 6250 4400 50  0001 C CNN
+	1    6250 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6750 1900 6750 2000
+Wire Wire Line
+	6750 2000 7250 2000
+Connection ~ 6750 2000
+Wire Wire Line
+	6750 2000 6750 2200
+Wire Wire Line
+	7850 2100 7900 2100
+Wire Wire Line
+	7900 2100 7900 2400
+Wire Wire Line
+	7900 2400 7150 2400
+Wire Wire Line
+	7150 2400 7150 2200
+Wire Wire Line
+	7150 2200 7250 2200
+Connection ~ 7900 2100
+Wire Wire Line
+	8200 2700 6750 2700
+Connection ~ 6750 2700
+Wire Wire Line
+	6750 2700 6350 2700
+Wire Wire Line
+	6750 1600 6750 1500
+Wire Wire Line
+	6750 1500 6350 1500
+Wire Wire Line
+	5650 1500 5650 1700
+Wire Wire Line
+	6750 1500 8200 1500
+Connection ~ 6750 1500
+Text GLabel 8450 2100 2    50   Input ~ 0
+REF
+$Comp
+L power:+10V #PWR0101
+U 1 1 5B7312CD
+P 6750 1350
+F 0 "#PWR0101" H 6750 1200 50  0001 C CNN
+F 1 "+10V" H 6765 1523 50  0000 C CNN
+F 2 "" H 6750 1350 50  0001 C CNN
+F 3 "" H 6750 1350 50  0001 C CNN
+	1    6750 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5B7313CC
+P 6750 2850
+F 0 "#PWR0102" H 6750 2600 50  0001 C CNN
+F 1 "GND" H 6755 2677 50  0000 C CNN
+F 2 "" H 6750 2850 50  0001 C CNN
+F 3 "" H 6750 2850 50  0001 C CNN
+	1    6750 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 2700 6750 2850
+Wire Wire Line
+	6750 1350 6750 1500
+Wire Wire Line
+	7900 2100 8200 2100
+Wire Wire Line
+	6750 2500 6750 2700
+Wire Wire Line
+	5650 2300 5650 2700
+$Comp
+L Device:C_Small C12
+U 1 1 5B732BFE
+P 8200 1750
+F 0 "C12" H 8292 1796 50  0000 L CNN
+F 1 "100n" H 8292 1705 50  0000 L CNN
+F 2 "default-footprints:C_0603_1608Metric" H 8200 1750 50  0001 C CNN
+F 3 "~" H 8200 1750 50  0001 C CNN
+	1    8200 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C13
+U 1 1 5B732C82
+P 8200 2350
+F 0 "C13" H 8292 2396 50  0000 L CNN
+F 1 "100n" H 8292 2305 50  0000 L CNN
+F 2 "default-footprints:C_0603_1608Metric" H 8200 2350 50  0001 C CNN
+F 3 "~" H 8200 2350 50  0001 C CNN
+	1    8200 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C11
+U 1 1 5B732CF9
+P 6350 2050
+F 0 "C11" H 6442 2096 50  0000 L CNN
+F 1 "100n" H 6442 2005 50  0000 L CNN
+F 2 "default-footprints:C_0603_1608Metric" H 6350 2050 50  0001 C CNN
+F 3 "~" H 6350 2050 50  0001 C CNN
+	1    6350 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 1500 6350 1500
+Wire Wire Line
+	6350 1500 6350 1950
+Wire Wire Line
+	6350 2150 6350 2700
+Wire Wire Line
+	6350 2700 5650 2700
+Wire Wire Line
+	8200 1650 8200 1500
+Wire Wire Line
+	8200 1850 8200 2100
+Connection ~ 8200 2100
+Wire Wire Line
+	8200 2100 8450 2100
+Wire Wire Line
+	8200 2250 8200 2100
+Wire Wire Line
+	8200 2450 8200 2700
+Connection ~ 6350 1500
+Connection ~ 6350 2700
+Wire Wire Line
+	6400 4400 6550 4400
+Wire Wire Line
+	7000 4400 7200 4400
+Wire Wire Line
+	7550 4600 7500 4600
+Wire Wire Line
+	7500 4600 7500 4850
+Wire Wire Line
+	8250 4500 8150 4500
+$Comp
+L Device:C_Small C1
+U 1 1 5B738F70
+P 7650 3950
+F 0 "C1" V 7421 3950 50  0000 C CNN
+F 1 "1.2n" V 7512 3950 50  0000 C CNN
+F 2 "default-footprints:C_0603_1608Metric" H 7650 3950 50  0001 C CNN
+F 3 "~" H 7650 3950 50  0001 C CNN
+	1    7650 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 5B738FE3
+P 7200 4600
+F 0 "C2" H 7292 4646 50  0000 L CNN
+F 1 "1.2n" H 7292 4555 50  0000 L CNN
+F 2 "default-footprints:C_0603_1608Metric" H 7200 4600 50  0001 C CNN
+F 3 "~" H 7200 4600 50  0001 C CNN
+	1    7200 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 3950 6550 3950
+Wire Wire Line
+	6550 3950 6550 4400
+Connection ~ 6550 4400
+Wire Wire Line
+	6550 4400 6700 4400
+Wire Wire Line
+	7200 4400 7200 4500
+Connection ~ 7200 4400
+Wire Wire Line
+	7200 4400 7550 4400
+Text GLabel 7050 5100 0    50   Input ~ 0
+REF
+Wire Wire Line
+	7200 4700 7200 5100
+Wire Wire Line
+	7750 3950 8250 3950
+Wire Wire Line
+	8250 3950 8250 4500
+$Comp
+L Device:R_POT RV4
+U 1 1 5B73B349
+P 8250 4850
+F 0 "RV4" H 8180 4896 50  0000 R CNN
+F 1 "100k" H 8180 4805 50  0000 R CNN
+F 2 "default-footprints:Potentiometer_Vishay_TS53YL_Vertical" H 8250 4850 50  0001 C CNN
+F 3 "~" H 8250 4850 50  0001 C CNN
+	1    8250 4850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 4700 8250 4500
+Connection ~ 8250 4500
+Wire Wire Line
+	7500 4850 8100 4850
+$Comp
+L Device:R R3
+U 1 1 5B73F8D3
+P 7750 5100
+F 0 "R3" V 7543 5100 50  0000 C CNN
+F 1 "3.3k" V 7634 5100 50  0000 C CNN
+F 2 "default-footprints:R_0603_1608Metric" V 7680 5100 50  0001 C CNN
+F 3 "~" H 7750 5100 50  0001 C CNN
+	1    7750 5100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8250 5000 8250 5100
+Wire Wire Line
+	8250 5100 7900 5100
+Wire Wire Line
+	7600 5100 7200 5100
+Connection ~ 7200 5100
+Wire Wire Line
+	7200 5100 7050 5100
+Text GLabel 8550 4500 2    50   Input ~ 0
+OUT
+Wire Wire Line
+	8250 4500 8550 4500
+Text GLabel 5500 4400 0    50   Input ~ 0
+IN
+Wire Wire Line
+	6100 4400 5950 4400
+$Comp
+L Device:CP_Small C10
+U 1 1 5B7443C5
+P 2000 1750
+F 0 "C10" H 2088 1796 50  0000 L CNN
+F 1 "10u" H 2088 1705 50  0000 L CNN
+F 2 "default-footprints:CP_Elec_5x5.4" H 2000 1750 50  0001 C CNN
+F 3 "~" H 2000 1750 50  0001 C CNN
+	1    2000 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J1
+U 1 1 5B74B292
+P 2750 1850
+F 0 "J1" H 2830 1892 50  0000 L CNN
+F 1 "Screw_Terminal_01x03" H 2830 1801 50  0000 L CNN
+F 2 "default-footprints:PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Right" H 2750 1850 50  0001 C CNN
+F 3 "~" H 2750 1850 50  0001 C CNN
+	1    2750 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J2
+U 1 1 5B74B480
+P 2750 2300
+F 0 "J2" H 2830 2292 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 2830 2201 50  0000 L CNN
+F 2 "default-footprints:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Right" H 2750 2300 50  0001 C CNN
+F 3 "~" H 2750 2300 50  0001 C CNN
+	1    2750 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5B74DF8F
+P 2000 1950
+F 0 "#PWR0103" H 2000 1700 50  0001 C CNN
+F 1 "GND" H 2005 1777 50  0000 C CNN
+F 2 "" H 2000 1950 50  0001 C CNN
+F 3 "" H 2000 1950 50  0001 C CNN
+	1    2000 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+10V #PWR0104
+U 1 1 5B74E993
+P 2000 1550
+F 0 "#PWR0104" H 2000 1400 50  0001 C CNN
+F 1 "+10V" H 2015 1723 50  0000 C CNN
+F 2 "" H 2000 1550 50  0001 C CNN
+F 3 "" H 2000 1550 50  0001 C CNN
+	1    2000 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 1550 2000 1600
+Wire Wire Line
+	2000 1850 2000 1950
+Wire Wire Line
+	2550 1600 2550 1750
+Connection ~ 2000 1600
+Wire Wire Line
+	2000 1600 2000 1650
+Wire Wire Line
+	2550 1850 2000 1850
+Connection ~ 2000 1850
+Text GLabel 2250 1950 0    50   Input ~ 0
+IN
+Wire Wire Line
+	2550 1950 2250 1950
+Text GLabel 2300 2300 0    50   Input ~ 0
+OUT
+Text GLabel 2300 2400 0    50   Input ~ 0
+REF
+Wire Wire Line
+	2300 2300 2550 2300
+Wire Wire Line
+	2300 2400 2550 2400
+$Comp
+L Device:C_Small C0
+U 1 1 5B75AE68
+P 5850 4400
+F 0 "C0" V 5621 4400 50  0000 C CNN
+F 1 "100n" V 5712 4400 50  0000 C CNN
+F 2 "default-footprints:C_0603_1608Metric" H 5850 4400 50  0001 C CNN
+F 3 "~" H 5850 4400 50  0001 C CNN
+	1    5850 4400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5750 4400 5500 4400
+Wire Wire Line
+	2000 1600 2550 1600
+$EndSCHEMATC
