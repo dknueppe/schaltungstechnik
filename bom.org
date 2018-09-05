@@ -2,12 +2,12 @@
 
 | Pos | Item          | Value     | Package   | Qty | Cost   | Link     |
 |-----+---------------+-----------+-----------+-----+--------+----------|
-|   1 | Op-Amp        | ADA4610-2 | SOIC-8    |   1 | 3.81 € | [[https://www.digikey.de/product-detail/de/analog-devices-inc/ADA4610-2ARZ-R7/ADA4610-2ARZ-R7CT-ND/4909208][@digikey]] |
+|   1 | Op-Amp        | ADA4610-2 | SOIC-8    |   1 | 2.04 € | [[https://www.digikey.de/product-detail/de/analog-devices-inc/ADA4062-2ARZ/ADA4062-2ARZ-ND/1979393][@digikey]] |
 |   2 | Capacitor     | 10uF      | SMT 5x5.4 |   1 | 0.30 € | [[https://www.digikey.de/product-detail/de/panasonic-electronic-components/EEE-1VA100WR/PCE3948CT-ND/766324][@digikey]] |
 |   3 | Pin Header    | Male      | SMT 1x3   |   1 | 0.43 € | [[https://www.digikey.de/product-detail/de/molex-llc/0878980306/WM9810-ND/3264896][@digikey]] |
 |   4 | Pin Header    | Male      | SMT 1x2   |   1 | 0.40 € | [[https://www.digikey.de/product-detail/de/molex-llc/0878980204/WM9852-ND/3303535][@digikey]] |
 |   5 | Potentiometer | 100kΩ     | SMT       |   1 | 1.45 € | [[https://www.digikey.de/product-detail/de/vishay-sfernice/TS53YL104MR10/TS53YL-100KCT-ND/1587994][@digikey]] |
-|   6 | Resistor      | 18kΩ      | SMT 0603  |   3 |        |          |
+|   6 | Resistor      | 47kΩ      | SMT 0603  |   3 |        |          |
 |   7 | Resistor      | 820kΩ     | SMT 0603  |   1 |        |          |
 |   8 | Resistor      | 3.3kΩ     | SMT 0603  |   1 |        |          |
 |   9 | Capacitor     | 100nF     | SMT 0603  |   4 |        |          |
