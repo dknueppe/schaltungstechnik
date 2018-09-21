@@ -120,8 +120,6 @@ Wire Wire Line
 	6750 1500 6350 1500
 Wire Wire Line
 	5650 1500 5650 1700
-Wire Wire Line
-	6750 1500 8200 1500
 Connection ~ 6750 1500
 Text GLabel 8450 2100 2    50   Input ~ 0
 REF
@@ -158,17 +156,6 @@ Wire Wire Line
 Wire Wire Line
 	5650 2300 5650 2700
 $Comp
-L Device:C_Small C12
-U 1 1 5B732BFE
-P 8200 1750
-F 0 "C12" H 8292 1796 50  0000 L CNN
-F 1 "100n" H 8292 1705 50  0000 L CNN
-F 2 "default-footprints:C_0603_1608Metric" H 8200 1750 50  0001 C CNN
-F 3 "~" H 8200 1750 50  0001 C CNN
-	1    8200 1750
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C13
 U 1 1 5B732C82
 P 8200 2350
@@ -198,10 +185,6 @@ Wire Wire Line
 	6350 2150 6350 2700
 Wire Wire Line
 	6350 2700 5650 2700
-Wire Wire Line
-	8200 1650 8200 1500
-Wire Wire Line
-	8200 1850 8200 2100
 Connection ~ 8200 2100
 Wire Wire Line
 	8200 2100 8450 2100

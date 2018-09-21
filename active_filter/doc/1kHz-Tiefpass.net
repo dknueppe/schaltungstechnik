@@ -1,0 +1,17 @@
+* Z:\home\daniel\workspace\studium\st\praktikum\schaltungstechnik\active_filter\doc\1kHz-Tiefpass.asc
+R1 N001 INPUT 47k
+R2 N002 N001 820k
+C1 N001 OUTPUT 2.2n
+C2 N002 0 220p
+R3 N004 0 3.3k
+V3 INPUT 0 0 AC 1
+R4 OUTPUT N003 {100k*(1-a)}
+R5 N003 N004 {100k*a}
+XU1 N002 N003 VCC -VCC OUTPUT ADA4000
+V1 VCC 0 10 AC 0
+V2 0 -VCC 10 AC 0
+.ac dec 100 1 20k
+.step param a list 0.99 0.7 0.5 0.3 0.1
+.lib ADI.lib
+.backanno
+.end

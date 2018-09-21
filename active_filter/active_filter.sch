@@ -120,54 +120,16 @@ Wire Wire Line
 	6750 1500 6350 1500
 Wire Wire Line
 	5650 1500 5650 1700
-Wire Wire Line
-	6750 1500 8200 1500
-Connection ~ 6750 1500
 Text GLabel 8450 2100 2    50   Input ~ 0
 REF
-$Comp
-L power:+10V #PWR0101
-U 1 1 5B7312CD
-P 6750 1350
-F 0 "#PWR0101" H 6750 1200 50  0001 C CNN
-F 1 "+10V" H 6765 1523 50  0000 C CNN
-F 2 "" H 6750 1350 50  0001 C CNN
-F 3 "" H 6750 1350 50  0001 C CNN
-	1    6750 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0102
-U 1 1 5B7313CC
-P 6750 2850
-F 0 "#PWR0102" H 6750 2600 50  0001 C CNN
-F 1 "GND" H 6755 2677 50  0000 C CNN
-F 2 "" H 6750 2850 50  0001 C CNN
-F 3 "" H 6750 2850 50  0001 C CNN
-	1    6750 2850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6750 2700 6750 2850
-Wire Wire Line
-	6750 1350 6750 1500
 Wire Wire Line
 	7900 2100 8200 2100
 Wire Wire Line
 	6750 2500 6750 2700
 Wire Wire Line
 	5650 2300 5650 2700
-$Comp
-L Device:C_Small C12
-U 1 1 5B732BFE
-P 8200 1750
-F 0 "C12" H 8292 1796 50  0000 L CNN
-F 1 "100n" H 8292 1705 50  0000 L CNN
-F 2 "default-footprints:C_0603_1608Metric" H 8200 1750 50  0001 C CNN
-F 3 "~" H 8200 1750 50  0001 C CNN
-	1    8200 1750
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C_Small C13
 U 1 1 5B732C82
@@ -198,10 +160,6 @@ Wire Wire Line
 	6350 2150 6350 2700
 Wire Wire Line
 	6350 2700 5650 2700
-Wire Wire Line
-	8200 1650 8200 1500
-Wire Wire Line
-	8200 1850 8200 2100
 Connection ~ 8200 2100
 Wire Wire Line
 	8200 2100 8450 2100
@@ -256,7 +214,7 @@ Connection ~ 7200 4400
 Wire Wire Line
 	7200 4400 7550 4400
 Text GLabel 7050 5100 0    50   Input ~ 0
-REF
+COM
 Wire Wire Line
 	7200 4700 7200 5100
 Wire Wire Line
@@ -316,50 +274,6 @@ F 3 "~" H 2000 1750 50  0001 C CNN
 	1    2000 1750
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:Screw_Terminal_01x03 J1
-U 1 1 5B74B292
-P 2750 1850
-F 0 "J1" H 2830 1892 50  0000 L CNN
-F 1 "Screw_Terminal_01x03" H 2830 1801 50  0000 L CNN
-F 2 "default-footprints:PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Right" H 2750 1850 50  0001 C CNN
-F 3 "~" H 2750 1850 50  0001 C CNN
-	1    2750 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Screw_Terminal_01x02 J2
-U 1 1 5B74B480
-P 2750 2300
-F 0 "J2" H 2830 2292 50  0000 L CNN
-F 1 "Screw_Terminal_01x02" H 2830 2201 50  0000 L CNN
-F 2 "default-footprints:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Right" H 2750 2300 50  0001 C CNN
-F 3 "~" H 2750 2300 50  0001 C CNN
-	1    2750 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0103
-U 1 1 5B74DF8F
-P 2000 1950
-F 0 "#PWR0103" H 2000 1700 50  0001 C CNN
-F 1 "GND" H 2005 1777 50  0000 C CNN
-F 2 "" H 2000 1950 50  0001 C CNN
-F 3 "" H 2000 1950 50  0001 C CNN
-	1    2000 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+10V #PWR0104
-U 1 1 5B74E993
-P 2000 1550
-F 0 "#PWR0104" H 2000 1400 50  0001 C CNN
-F 1 "+10V" H 2015 1723 50  0000 C CNN
-F 2 "" H 2000 1550 50  0001 C CNN
-F 3 "" H 2000 1550 50  0001 C CNN
-	1    2000 1550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2000 1550 2000 1600
 Wire Wire Line
@@ -372,20 +286,132 @@ Wire Wire Line
 Wire Wire Line
 	2550 1850 2000 1850
 Connection ~ 2000 1850
-Text GLabel 2250 1950 0    50   Input ~ 0
+Text GLabel 2200 2700 0    50   Input ~ 0
 IN
 Wire Wire Line
-	2550 1950 2250 1950
-Text GLabel 2300 2300 0    50   Input ~ 0
+	2500 2700 2200 2700
+Text GLabel 2250 2800 0    50   Input ~ 0
+COM
+Text GLabel 2250 2900 0    50   Input ~ 0
 OUT
-Text GLabel 2300 2400 0    50   Input ~ 0
-REF
 Wire Wire Line
-	2300 2300 2550 2300
+	2250 2800 2500 2800
 Wire Wire Line
-	2300 2400 2550 2400
+	2250 2900 2500 2900
 Wire Wire Line
 	2000 1600 2550 1600
 Wire Wire Line
 	5500 4400 6100 4400
+$Comp
+L Connector_Generic_MountingPin:Conn_01x03_MountingPin J0
+U 1 1 5BA57A78
+P 2750 1850
+F 0 "J0" H 2837 1816 50  0000 L CNN
+F 1 "Conn_01x03_MountingPin" H 2837 1725 50  0000 L CNN
+F 2 "" H 2750 1850 50  0001 C CNN
+F 3 "~" H 2750 1850 50  0001 C CNN
+	1    2750 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VEE #PWR?
+U 1 1 5BA5808C
+P 6750 2850
+F 0 "#PWR?" H 6750 2700 50  0001 C CNN
+F 1 "VEE" H 6768 3023 50  0000 C CNN
+F 2 "" H 6750 2850 50  0001 C CNN
+F 3 "" H 6750 2850 50  0001 C CNN
+	1    6750 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5BA5AA61
+P 6750 1350
+F 0 "#PWR?" H 6750 1200 50  0001 C CNN
+F 1 "VCC" H 6767 1523 50  0000 C CNN
+F 2 "" H 6750 1350 50  0001 C CNN
+F 3 "" H 6750 1350 50  0001 C CNN
+	1    6750 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 1350 6750 1500
+Connection ~ 6750 1500
+$Comp
+L power:VCC #PWR?
+U 1 1 5BA5B9F6
+P 2000 1550
+F 0 "#PWR?" H 2000 1400 50  0001 C CNN
+F 1 "VCC" H 2017 1723 50  0000 C CNN
+F 2 "" H 2000 1550 50  0001 C CNN
+F 3 "" H 2000 1550 50  0001 C CNN
+	1    2000 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VEE #PWR?
+U 1 1 5BA5C8A2
+P 2000 1950
+F 0 "#PWR?" H 2000 1800 50  0001 C CNN
+F 1 "VEE" H 2018 2123 50  0000 C CNN
+F 2 "" H 2000 1950 50  0001 C CNN
+F 3 "" H 2000 1950 50  0001 C CNN
+	1    2000 1950
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BA5F576
+P 2400 1950
+F 0 "#PWR?" H 2400 1700 50  0001 C CNN
+F 1 "GND" H 2405 1777 50  0000 C CNN
+F 2 "" H 2400 1950 50  0001 C CNN
+F 3 "" H 2400 1950 50  0001 C CNN
+	1    2400 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 1950 2400 1950
+$Comp
+L Jumper:Jumper_3_Bridged12 Jump0
+U 1 1 5BA605C1
+P 2850 3750
+F 0 "Jump0" H 2850 3954 50  0000 C CNN
+F 1 "Jumper_3_Bridged12" H 2850 3863 50  0000 C CNN
+F 2 "" H 2850 3750 50  0001 C CNN
+F 3 "~" H 2850 3750 50  0001 C CNN
+	1    2850 3750
+	1    0    0    -1  
+$EndComp
+Text GLabel 3100 3750 2    50   Input ~ 0
+REF
+Text GLabel 2850 3900 3    50   Input ~ 0
+COM
+$Comp
+L power:GND #PWR?
+U 1 1 5BA614F9
+P 2450 3800
+F 0 "#PWR?" H 2450 3550 50  0001 C CNN
+F 1 "GND" H 2455 3627 50  0000 C CNN
+F 2 "" H 2450 3800 50  0001 C CNN
+F 3 "" H 2450 3800 50  0001 C CNN
+	1    2450 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 3800 2450 3750
+Wire Wire Line
+	2450 3750 2600 3750
+$Comp
+L Connector_Generic_MountingPin:Conn_01x03_MountingPin J1
+U 1 1 5BA6345F
+P 2700 2800
+F 0 "J1" H 2787 2766 50  0000 L CNN
+F 1 "Conn_01x03_MountingPin" H 2787 2675 50  0000 L CNN
+F 2 "" H 2700 2800 50  0001 C CNN
+F 3 "~" H 2700 2800 50  0001 C CNN
+	1    2700 2800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
