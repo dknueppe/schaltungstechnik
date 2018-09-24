@@ -1,17 +1,17 @@
 
 # Table of Contents
 
-1.  [Aktiver Tiefpassfilter im Rahmen des Schaltungstechnik Praktikums](#org2ca6da9)
-    1.  [Realisierung eines 1kHz Tiefpassfilter mit veränderlicher Verstärkung](#orgb551641)
-    2.  [Bill of Materials](#orga90318e)
+1.  [Aktiver Tiefpassfilter im Rahmen des Schaltungstechnik Praktikums](#org16d0915)
+    1.  [Realisierung eines 1kHz Tiefpassfilter mit veränderlicher Verstärkung](#orgd208ae2)
+    2.  [Bill of Materials](#org55c7227)
 
 
-<a id="org2ca6da9"></a>
+<a id="org16d0915"></a>
 
 # Aktiver Tiefpassfilter im Rahmen des Schaltungstechnik Praktikums
 
 
-<a id="orgb551641"></a>
+<a id="orgd208ae2"></a>
 
 ## Realisierung eines 1kHz Tiefpassfilter mit veränderlicher Verstärkung
 
@@ -24,7 +24,7 @@ Auf der Stellung **REF** wird eine interne Referenzspannung genutzt, es ist empf
 Signal in diesem Fall voneinander galvanisch getrennt sind.
 
 
-<a id="orga90318e"></a>
+<a id="org55c7227"></a>
 
 ## Bill of Materials
 
@@ -88,7 +88,7 @@ Signal in diesem Fall voneinander galvanisch getrennt sind.
 <td class="org-left">SMT</td>
 <td class="org-right">1</td>
 <td class="org-left">0.71 €</td>
-<td class="org-left">[@digikey](https://www.digikey.de/product-detail/de/vishay-sfernice/TS53YL104MR10/TS53YL-100KCT-ND/1587994)</td>
+<td class="org-left">[@digikey](https://www.digikey.de/product-detail/de/bourns-inc/PTV09A-4020U-B104/PTV09A-4020U-B104-ND/3781131)</td>
 </tr>
 
 

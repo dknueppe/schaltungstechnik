@@ -16,7 +16,7 @@ Signal in diesem Fall voneinander galvanisch getrennt sind.
 |-----+---------------+-----------+-----------+-----+--------+----------|
 |   1 | Op-Amp        | ADA4610-2 | SOIC-8    |   1 | 2.04 € | [[https://www.digikey.de/product-detail/de/analog-devices-inc/ADA4062-2ARZ/ADA4062-2ARZ-ND/1979393][@digikey]] |
 |   2 | Capacitor     | 10uF      | SMT 5x5.4 |   1 | 0.30 € | [[https://www.digikey.de/product-detail/de/panasonic-electronic-components/EEE-1VA100WR/PCE3948CT-ND/766324][@digikey]] |
-|   5 | Potentiometer | 100kΩ     | SMT       |   1 | 0.71 € | [[https://www.digikey.de/product-detail/de/vishay-sfernice/TS53YL104MR10/TS53YL-100KCT-ND/1587994][@digikey]] |
+|   5 | Potentiometer | 100kΩ     | SMT       |   1 | 0.71 € | [[https://www.digikey.de/product-detail/de/bourns-inc/PTV09A-4020U-B104/PTV09A-4020U-B104-ND/3781131][@digikey]] |
 |   3 | Pin Header    | Male      | THT 1x3   |   3 |        |          |
 |   6 | Resistor      | 47kΩ      | SMT 0603  |   3 |        |          |
 |   7 | Resistor      | 820kΩ     | SMT 0603  |   1 |        |          |
