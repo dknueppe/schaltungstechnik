@@ -1,17 +1,17 @@
 
 # Table of Contents
 
-1.  [Aktiver Tiefpassfilter im Rahmen des Schaltungstechnik Praktikums](#org16d0915)
-    1.  [Realisierung eines 1kHz Tiefpassfilter mit veränderlicher Verstärkung](#orgd208ae2)
-    2.  [Bill of Materials](#org55c7227)
+1.  [Aktiver Tiefpassfilter im Rahmen des Schaltungstechnik Praktikums](#orgeeeed9e)
+    1.  [Realisierung eines 1kHz Tiefpassfilter mit veränderlicher Verstärkung](#org1f44f5b)
+    2.  [Bill of Materials](#orga1494c9)
 
 
-<a id="org16d0915"></a>
+<a id="orgeeeed9e"></a>
 
 # Aktiver Tiefpassfilter im Rahmen des Schaltungstechnik Praktikums
 
 
-<a id="orgd208ae2"></a>
+<a id="org1f44f5b"></a>
 
 ## Realisierung eines 1kHz Tiefpassfilter mit veränderlicher Verstärkung
 
@@ -24,7 +24,7 @@ Auf der Stellung **REF** wird eine interne Referenzspannung genutzt, es ist empf
 Signal in diesem Fall voneinander galvanisch getrennt sind.
 
 
-<a id="org55c7227"></a>
+<a id="orga1494c9"></a>
 
 ## Bill of Materials
 
@@ -85,7 +85,7 @@ Signal in diesem Fall voneinander galvanisch getrennt sind.
 <td class="org-right">5</td>
 <td class="org-left">Potentiometer</td>
 <td class="org-left">100kΩ</td>
-<td class="org-left">SMT</td>
+<td class="org-left">THT</td>
 <td class="org-right">1</td>
 <td class="org-left">0.71 €</td>
 <td class="org-left">[@digikey](https://www.digikey.de/product-detail/de/bourns-inc/PTV09A-4020U-B104/PTV09A-4020U-B104-ND/3781131)</td>
