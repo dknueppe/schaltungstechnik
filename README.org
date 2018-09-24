@@ -1,4 +1,16 @@
-* Bill of Materials
+* Aktiver Tiefpassfilter im Rahmen des Schaltungstechnik Praktikums
+
+** Realisierung eines 1kHz Tiefpassfilter mit veränderlicher Verstärkung
+
+Der Filter nutzt eine Sallen-Key Topologie und kann mit verschiedenen Spannungsquellen betrieben werden.
+Desweiteren lässt sich die Verstärkung über ein Potentiometer verstellen.
+
+Der Jumper ist entsprechend der Spannungsversorgung zu setzen. Auf der Stellung *GND* wird das GND potential
+zur Referenzspannung für den Verstärker, somit sollte eine symmetrische Spannungsversorgung genutzt werden.
+Auf der Stellung *REF* wird eine interne Referenzspannung genutzt, es ist empfohlen das Spannungsquelle und
+Signal in diesem Fall voneinander galvanisch getrennt sind.
+
+** Bill of Materials
 
 | Pos | Item          | Value     | Package   | Qty | Cost   | Link     |
 |-----+---------------+-----------+-----------+-----+--------+----------|
@@ -11,4 +23,3 @@
 |   8 | Resistor      | 3.3kΩ     | SMT 0603  |   1 |        |          |
 |   9 | Capacitor     | 100nF     | SMT 0603  |   4 |        |          |
 |  10 | Capacitor     | 1.2nF     | SMT 0603  |   2 |        |          |
-
