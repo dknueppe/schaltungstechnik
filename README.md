@@ -1,17 +1,17 @@
 
 # Table of Contents
 
-1.  [Aktiver Tiefpassfilter im Rahmen des Schaltungstechnik Praktikums](#orgeeeed9e)
-    1.  [Realisierung eines 1kHz Tiefpassfilter mit veränderlicher Verstärkung](#org1f44f5b)
-    2.  [Bill of Materials](#orga1494c9)
+1.  [Aktiver Tiefpassfilter im Rahmen des Schaltungstechnik Praktikums](#org497d46e)
+    1.  [Realisierung eines 1kHz Tiefpassfilter mit veränderlicher Verstärkung](#orgdd8e5d2)
+    2.  [Bill of Materials](#org9c20808)
 
 
-<a id="orgeeeed9e"></a>
+<a id="org497d46e"></a>
 
 # Aktiver Tiefpassfilter im Rahmen des Schaltungstechnik Praktikums
 
 
-<a id="org1f44f5b"></a>
+<a id="orgdd8e5d2"></a>
 
 ## Realisierung eines 1kHz Tiefpassfilter mit veränderlicher Verstärkung
 
@@ -24,7 +24,7 @@ Auf der Stellung **REF** wird eine interne Referenzspannung genutzt, es ist empf
 Signal in diesem Fall voneinander galvanisch getrennt sind.
 
 
-<a id="orga1494c9"></a>
+<a id="org9c20808"></a>
 
 ## Bill of Materials
 
@@ -75,7 +75,7 @@ Signal in diesem Fall voneinander galvanisch getrennt sind.
 <td class="org-left">Capacitor</td>
 <td class="org-left">10uF</td>
 <td class="org-left">SMT 5x5.4</td>
-<td class="org-right">1</td>
+<td class="org-right">2</td>
 <td class="org-left">0.30 €</td>
 <td class="org-left">[@digikey](https://www.digikey.de/product-detail/de/panasonic-electronic-components/EEE-1VA100WR/PCE3948CT-ND/766324)</td>
 </tr>
